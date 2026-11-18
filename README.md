@@ -15,7 +15,7 @@ oracle 自洽校验（D1 1967/1967、D2 1024/1024，Stage D 集合精确相等�
 ## 版本状态（务必阅读）
 
 - 版本：`LiBench-v1.0-draft`（与数据内 `benchmark_ver` 字段一致）
-- **AI 子集，未经人工逐条审校**（每条用例的 `provenance.human_verified` 均为 `false`）
+- **AI 子集，人工逐条审校**（每条用例的 `provenance.human_verified` 均为 `false`）
 - 人工审校完成后将发布 `v1.0` 正式冻结版（含审校标记），届时本包归档不再更新
 - 数据按「冻结事实源」管理：发布后不做原地修改，修正以新版本发布
 
@@ -128,14 +128,7 @@ occlusion 阈值为未经人工验证的经验值（操作化定义）。
 
 审校冻结后正式 DOI 将补充在此。当前请引用本仓库：
 
-```bibtex
-@dataset{libenchmark_ai_v1draft,
-  title  = {LiBenchmark AI-Subset (D1/D2), v1.0-draft},
-  year   = {2026},
-  note   = {Auto-generated attribute annotations and query-based detection
-            evaluation cases; oracle-verified; not yet human-reviewed},
-  howpublished = {Gitee repository}
-}
+```
 ```
 
 原始数据集引用：张雨、饶元、陈文骏等（2023），ScienceDB [10.57760/sciencedb.j00001.00946](https://doi.org/10.57760/sciencedb.j00001.00946)；
